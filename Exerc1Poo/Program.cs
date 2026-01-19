@@ -22,6 +22,11 @@ namespace Exerc1Poo
             retangulo2.Altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine(retangulo2);
+
+            Retangulo retangulo3 = new Retangulo();
+            retangulo3 = retangulo2;
+            Console.WriteLine(retangulo3);
+
         }
     }
 }
